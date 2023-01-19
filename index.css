@@ -16,7 +16,7 @@ body {
 }
 
 .l1 {
-    /* border: solid green; */
+    border: solid green;
     width: 45%;
     text-align: left;
     font-size: 1.2rem;
@@ -24,7 +24,7 @@ body {
 
 
 .r1 {
-    /* border: solid blue; */
+    border: solid blue;
     width: 50%;
     position: relative;   /* NOTE: this is to make children with position=absolute to work*/
 }
@@ -52,4 +52,62 @@ hr {
     left: 19%;
     width: 61%;
     z-index: -1000;
+}
+
+.download-dialog {
+    position: absolute;
+    border: solid rgb(61, 59, 59) 2px;
+    top:69%;
+    left:16%;
+    width:68%;
+    background-color: black;
+    border-radius: 15px;
+    height: 70px;
+}
+
+.download-dialog-flex {
+    /* border: solid red; */
+    margin: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.download-dialog-left {
+    height: 100%;
+}
+
+.st-movie{
+    /* border:solid yellow; */
+    margin-top: 2%;
+    margin-bottom: 2%;
+    /* width:15%; */
+    height: 100%;
+}
+
+.text1 {
+    /* display: flex; */
+    /* border: solid orange 2px; */
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-right: 90px; */
+    column-gap: 0px;
+}
+
+.sText {
+    margin: 0 0;
+    font-size: 110%;
+    font-weight: bold;
+}
+.dText {
+    margin: 0 0;
+    font-size: 80%;
+    color:rgb(42,111,220);
+}
+
+.download-mark {
+    width: 50px;
+    height: 50px;
 }
